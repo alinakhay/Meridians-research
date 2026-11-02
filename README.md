@@ -21,7 +21,7 @@ Counterfactual strict accuracy and the separately labeled post-hoc scale-agnosti
 - [Meridians Counterfactuals](https://huggingface.co/datasets/alinakhay/Meridians-Counterfactuals): 128 original synthetic held-out evaluation cases in 32 related scenarios, with the exact-data generator, grouped identifiers and provenance under `dataset/`.
 - [Meridians Research Explorer](https://huggingface.co/spaces/alinakhay/Meridians-Research-Explorer): an interactive presentation of all 1,280 recorded synthetic responses across ten conditions, all financial aggregate outcomes, paper and figures; its complete source is under `space/`.
 
-The complete dataset and explorer source are also bundled here under `dataset/` and `space/`; Hugging Face access follows the companion repositories' release settings. The explorer does not perform live model inference. Data retain their original CC0-1.0 terms; the code is MIT. The original FinQA/TAT-QA corpora are not included. The full study's 2,560 prediction texts remain in `results/final/`.
+Both Hugging Face companion repositories are public. The complete dataset and explorer source are also bundled here under `dataset/` and `space/`. The explorer does not perform live model inference. Data retain their original CC0-1.0 terms; the code is MIT. The original FinQA/TAT-QA corpora are not included. The full study's 2,560 prediction texts remain in `results/final/`.
 
 To check the standalone original synthetic dataset: `python dataset/generate.py --check`.
 To preview the explorer locally, open `space/index.html` or serve that directory with a local web server. The bundled manuscript and figures are included.
@@ -73,4 +73,4 @@ Build the manuscript from its directory with `pdflatex main.tex` twice. All requ
 
 ## Citation and licenses
 
-Use `CITATION.cff` and the paper's references. Original code is MIT; backbone-derived adapters and third-party source/data attribution retain their own terms. See `DATA_ATTRIBUTION.md`, `LICENSES.md` and vendored notices. An arXiv identifier will be added only after it exists.
+Use `CITATION.cff` and the paper's references. Original code is MIT; the paper and original figures are CC BY 4.0; backbone-derived adapters and third-party source/data attribution retain their own terms. See `DATA_ATTRIBUTION.md`, `LICENSES.md` and vendored notices. An arXiv identifier will be added only after it exists.

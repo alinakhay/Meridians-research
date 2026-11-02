@@ -29,7 +29,7 @@ The explorer preserves the frozen strict scores and labels the separate scale-ag
 
 Open `index.html` locally to inspect the app; all assets and recorded predictions are bundled, with no external scripts, model APIs or credentials. The interface offers a scenario selector, independent numeric/claim flips, seed selection, all recorded answers, a full condition table, figures and the accompanying paper. The `dataset/` sibling in the publication bundle contains the exact-data generator and provenance.
 
-Original presentation code is MIT. The included original synthetic cases retain CC0-1.0 terms (DATA_LICENSE). Manuscript and figure rights are separate from the presentation-code license; see the research repository's `paper/RIGHTS.md`. Existing model and upstream dataset terms remain separate. An arXiv identifier will be added after it is assigned.
+Original presentation code is MIT. The included original synthetic cases retain CC0-1.0 terms (DATA_LICENSE). The scientific manuscript and its original figures are CC BY 4.0, separate from the MIT presentation-code license; see the research repository's `paper/RIGHTS.md`. Existing model and upstream dataset terms remain separate. An arXiv identifier will be added after it is assigned.
 
 ## Research interface
 

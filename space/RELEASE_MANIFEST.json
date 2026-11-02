@@ -17,8 +17,8 @@
       "sha256": "84889e0bb670e70810c142ad86e61173252d95a5e020fae889520924e071659d"
     },
     "README.md": {
-      "bytes": 3259,
-      "sha256": "6e0aa5df14395d23d9a2b41628bb14faec3010a4832385369121afd2e90ddbc7"
+      "bytes": 3296,
+      "sha256": "6faff93194ee9cae6dfb77b3cac27cf05d0e1dc52faeb339b174f641653cb4f3"
     },
     "app.js": {
       "bytes": 14664,
@@ -69,7 +69,7 @@
       "sha256": "69552d73005d5ea1c9ca9120c1b6f405311fa922c307037d7d01084057a12638"
     }
   },
-  "public_code_release_date": "2026-11-02",
+  "public_release_date": "2026-11-02",
   "manuscript_date": "November 2026",
   "private_during_preparation": true
 }

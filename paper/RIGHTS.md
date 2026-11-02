@@ -2,6 +2,9 @@
 
 Copyright (c) 2026 Alina Khay.
 
-The root MIT license covers original software and its software documentation. It does not license the scientific manuscript or its figures. These are made available by the author for reading and citation; no additional reuse license is granted by this repository at this stage. The author's selected arXiv distribution license will be recorded after that choice is accepted in the submission process.
+The scientific manuscript and its original figures are made available under the Creative Commons Attribution 4.0 International license (CC BY 4.0), selected by the author during the arXiv submission process on 2 November 2026.
 
-Synthetic dataset terms, model terms and third-party software/data notices remain separate. See ../LICENSES.md and ../DATA_ATTRIBUTION.md.
+License: https://creativecommons.org/licenses/by/4.0/
+Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The root MIT license covers original software and its software documentation. Original synthetic data retain CC0-1.0 terms. Upstream source components, data and backbone-derived model artifacts retain their separate notices and terms. See ../LICENSES.md and ../DATA_ATTRIBUTION.md.
