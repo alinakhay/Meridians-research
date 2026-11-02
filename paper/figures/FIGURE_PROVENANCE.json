@@ -1,0 +1,14 @@
+{
+  "final_results_sha256": "ac4ca47db6398901b948a5d0519fd62d3bbdf894cd777f1d8503df1164d3f558",
+  "post_hoc_results_sha256": "37e22ad6cf3391ec98f2e392c49478025bb5d9a52f271a396e24fe83f31cf283",
+  "figures": [
+    "architecture",
+    "study_design",
+    "benchmark_scores",
+    "paired_intervals",
+    "schema_diagnostic",
+    "counterfactual_design",
+    "training_diagnostics"
+  ],
+  "all_seeds_retained": true
+}

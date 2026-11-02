@@ -1,0 +1,386 @@
+[
+  {
+    "step": 1,
+    "loss": 2.6271095871925354,
+    "grad_norm": 52.550994873046875,
+    "microbatches": 4
+  },
+  {
+    "step": 2,
+    "loss": 2.5245975852012634,
+    "grad_norm": 34.232540130615234,
+    "microbatches": 8
+  },
+  {
+    "step": 3,
+    "loss": 1.7682723551988602,
+    "grad_norm": 28.601560592651367,
+    "microbatches": 12
+  },
+  {
+    "step": 4,
+    "loss": 1.4540219157934189,
+    "grad_norm": 51.95426940917969,
+    "microbatches": 16
+  },
+  {
+    "step": 5,
+    "loss": 0.6589456330984831,
+    "grad_norm": 10.83391284942627,
+    "microbatches": 20
+  },
+  {
+    "step": 6,
+    "loss": 1.0002353191375732,
+    "grad_norm": 7.775334358215332,
+    "microbatches": 24
+  },
+  {
+    "step": 7,
+    "loss": 1.346682459115982,
+    "grad_norm": 12.29665756225586,
+    "microbatches": 28
+  },
+  {
+    "step": 8,
+    "loss": 1.1343779563903809,
+    "grad_norm": 16.127731323242188,
+    "microbatches": 32
+  },
+  {
+    "step": 9,
+    "loss": 0.5670780604705215,
+    "grad_norm": 3.5336837768554688,
+    "microbatches": 36
+  },
+  {
+    "step": 10,
+    "loss": 0.636881873011589,
+    "grad_norm": 34.08838653564453,
+    "microbatches": 40
+  },
+  {
+    "step": 11,
+    "loss": 0.7970456257462502,
+    "grad_norm": 4.729348659515381,
+    "microbatches": 44
+  },
+  {
+    "step": 12,
+    "loss": 0.6976919770240784,
+    "grad_norm": 5.822535514831543,
+    "microbatches": 48
+  },
+  {
+    "step": 13,
+    "loss": 0.8346457704901695,
+    "grad_norm": 27.83620262145996,
+    "microbatches": 52
+  },
+  {
+    "step": 14,
+    "loss": 0.7095024138689041,
+    "grad_norm": 4.369693279266357,
+    "microbatches": 56
+  },
+  {
+    "step": 15,
+    "loss": 0.7528574168682098,
+    "grad_norm": 2.270151138305664,
+    "microbatches": 60
+  },
+  {
+    "step": 16,
+    "loss": 0.7827238440513611,
+    "grad_norm": 5.406280517578125,
+    "microbatches": 64
+  },
+  {
+    "step": 17,
+    "loss": 1.0632608085870743,
+    "grad_norm": 751.7183227539062,
+    "microbatches": 68
+  },
+  {
+    "step": 18,
+    "loss": 0.5744132194668055,
+    "grad_norm": 55.984413146972656,
+    "microbatches": 72
+  },
+  {
+    "step": 19,
+    "loss": 0.7004505172371864,
+    "grad_norm": 2.9738636016845703,
+    "microbatches": 76
+  },
+  {
+    "step": 20,
+    "loss": 0.6895323842763901,
+    "grad_norm": 3.398098945617676,
+    "microbatches": 80
+  },
+  {
+    "step": 21,
+    "loss": 0.8342457860708237,
+    "grad_norm": 13.814004898071289,
+    "microbatches": 84
+  },
+  {
+    "step": 22,
+    "loss": 0.7502795197069645,
+    "grad_norm": 13.264103889465332,
+    "microbatches": 88
+  },
+  {
+    "step": 23,
+    "loss": 0.6109754145145416,
+    "grad_norm": 2.556727647781372,
+    "microbatches": 92
+  },
+  {
+    "step": 24,
+    "loss": 0.6046920269727707,
+    "grad_norm": 2.245453357696533,
+    "microbatches": 96
+  },
+  {
+    "step": 25,
+    "loss": 0.4872975628823042,
+    "grad_norm": 3.366002082824707,
+    "microbatches": 100
+  },
+  {
+    "step": 26,
+    "loss": 0.5747175216674805,
+    "grad_norm": 2.3590047359466553,
+    "microbatches": 104
+  },
+  {
+    "step": 27,
+    "loss": 0.5195443220436573,
+    "grad_norm": 27.532943725585938,
+    "microbatches": 108
+  },
+  {
+    "step": 28,
+    "loss": 0.6160166785120964,
+    "grad_norm": 63.636131286621094,
+    "microbatches": 112
+  },
+  {
+    "step": 29,
+    "loss": 0.4643956497311592,
+    "grad_norm": 3.5389254093170166,
+    "microbatches": 116
+  },
+  {
+    "step": 30,
+    "loss": 0.9579107314348221,
+    "grad_norm": 23.5655517578125,
+    "microbatches": 120
+  },
+  {
+    "step": 31,
+    "loss": 0.7611718610860407,
+    "grad_norm": 3.4339513778686523,
+    "microbatches": 124
+  },
+  {
+    "step": 32,
+    "loss": 0.7415026649832726,
+    "grad_norm": 5.623847007751465,
+    "microbatches": 128
+  },
+  {
+    "step": 33,
+    "loss": 0.5283524990081787,
+    "grad_norm": 6.201638221740723,
+    "microbatches": 132
+  },
+  {
+    "step": 34,
+    "loss": 0.5224825628101826,
+    "grad_norm": 3.946537733078003,
+    "microbatches": 136
+  },
+  {
+    "step": 35,
+    "loss": 0.5837580147199333,
+    "grad_norm": 10.112631797790527,
+    "microbatches": 140
+  },
+  {
+    "step": 36,
+    "loss": 1.0539549142122269,
+    "grad_norm": 129.31748962402344,
+    "microbatches": 144
+  },
+  {
+    "step": 37,
+    "loss": 0.7559012174606323,
+    "grad_norm": 199.75088500976562,
+    "microbatches": 148
+  },
+  {
+    "step": 38,
+    "loss": 0.9307434819638729,
+    "grad_norm": 54.98078155517578,
+    "microbatches": 152
+  },
+  {
+    "step": 39,
+    "loss": 0.5298985242843628,
+    "grad_norm": 45.78010177612305,
+    "microbatches": 156
+  },
+  {
+    "step": 40,
+    "loss": 0.4121076457668096,
+    "grad_norm": 29.42989158630371,
+    "microbatches": 160
+  },
+  {
+    "step": 41,
+    "loss": 0.7162943868897855,
+    "grad_norm": 3060.8017578125,
+    "microbatches": 164
+  },
+  {
+    "step": 42,
+    "loss": 0.7714444324374199,
+    "grad_norm": 153.13516235351562,
+    "microbatches": 168
+  },
+  {
+    "step": 43,
+    "loss": 0.7100077643990517,
+    "grad_norm": 19.61862564086914,
+    "microbatches": 172
+  },
+  {
+    "step": 44,
+    "loss": 1.089911937713623,
+    "grad_norm": 93.8251724243164,
+    "microbatches": 176
+  },
+  {
+    "step": 45,
+    "loss": 0.44038540590554476,
+    "grad_norm": 33.24842071533203,
+    "microbatches": 180
+  },
+  {
+    "step": 46,
+    "loss": 0.7325460389256477,
+    "grad_norm": 5.677793979644775,
+    "microbatches": 184
+  },
+  {
+    "step": 47,
+    "loss": 0.4862282797694206,
+    "grad_norm": 17.473217010498047,
+    "microbatches": 188
+  },
+  {
+    "step": 48,
+    "loss": 0.7154474034905434,
+    "grad_norm": 37.0964241027832,
+    "microbatches": 192
+  },
+  {
+    "step": 49,
+    "loss": 0.6992860734462738,
+    "grad_norm": 17.74151611328125,
+    "microbatches": 196
+  },
+  {
+    "step": 50,
+    "loss": 1.1106353625655174,
+    "grad_norm": 206.5830078125,
+    "microbatches": 200
+  },
+  {
+    "step": 51,
+    "loss": 0.718787087360397,
+    "grad_norm": 1583.2921142578125,
+    "microbatches": 204
+  },
+  {
+    "step": 52,
+    "loss": 0.759794813580811,
+    "grad_norm": 238.30799865722656,
+    "microbatches": 208
+  },
+  {
+    "step": 53,
+    "loss": 0.3218784877099097,
+    "grad_norm": 2.6751163005828857,
+    "microbatches": 212
+  },
+  {
+    "step": 54,
+    "loss": 0.9065267925616354,
+    "grad_norm": 48.28305435180664,
+    "microbatches": 216
+  },
+  {
+    "step": 55,
+    "loss": 0.5818843832239509,
+    "grad_norm": 132.3941192626953,
+    "microbatches": 220
+  },
+  {
+    "step": 56,
+    "loss": 0.5617347117513418,
+    "grad_norm": 24.100749969482422,
+    "microbatches": 224
+  },
+  {
+    "step": 57,
+    "loss": 1.1467512100934982,
+    "grad_norm": 194.66334533691406,
+    "microbatches": 228
+  },
+  {
+    "step": 58,
+    "loss": 0.9564892987255007,
+    "grad_norm": 454.0978698730469,
+    "microbatches": 232
+  },
+  {
+    "step": 59,
+    "loss": 0.4239056706428528,
+    "grad_norm": 78.26438903808594,
+    "microbatches": 236
+  },
+  {
+    "step": 60,
+    "loss": 0.8595581091940403,
+    "grad_norm": 224.85577392578125,
+    "microbatches": 240
+  },
+  {
+    "step": 61,
+    "loss": 2.4031005278229713,
+    "grad_norm": 1586.9285888671875,
+    "microbatches": 244
+  },
+  {
+    "step": 62,
+    "loss": 1.877338469028473,
+    "grad_norm": 815.2077026367188,
+    "microbatches": 248
+  },
+  {
+    "step": 63,
+    "loss": 0.5859072948805988,
+    "grad_norm": 126.73430633544922,
+    "microbatches": 252
+  },
+  {
+    "step": 64,
+    "loss": 0.7758405171334743,
+    "grad_norm": 75.77230834960938,
+    "microbatches": 256
+  }
+]

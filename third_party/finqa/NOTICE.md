@@ -1,0 +1,1 @@
+Official FinQA program executor, pinned revision 0f16e2867befa6840783e58be38c9efb9229d742, MIT licensed. Retained unmodified for scorer-convention validation. The development model comparison reports answer-only accuracy, not program accuracy.

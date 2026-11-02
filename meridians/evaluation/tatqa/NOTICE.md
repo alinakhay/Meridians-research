@@ -1,0 +1,1 @@
+TAT-QA evaluation implementation and upstream test cases by the TAT-QA authors, MIT licensed. Source revision: 870accc41953dcde885aabeb963d94aabdc0fbc3. Original sources and hashes are listed in SOURCE_MANIFEST.json. Only the metric module import was changed to a relative package import. Dataset attribution: Zhu et al., ACL 2021; dataset CC BY 4.0.

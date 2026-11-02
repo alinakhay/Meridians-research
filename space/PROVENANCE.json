@@ -1,0 +1,17 @@
+{
+  "data_sources": {
+    "synthetic_cases_sha256": "9c9101815914308403ba2489dba49646583cfa5cc5257ada6354e3c329d22446",
+    "frozen_metrics_sha256": "69f47103c2ec796f7459d1e79996f398921a0570d73ce63cf31d5cc419ffb270",
+    "post_hoc_diagnostic_sha256": "37e22ad6cf3391ec98f2e392c49478025bb5d9a52f271a396e24fe83f31cf283"
+  },
+  "synthetic_answers": 1280,
+  "conditions": 10,
+  "all_predetermined_seeds_included": [
+    42,
+    11,
+    23
+  ],
+  "model_predictions_modified": false,
+  "live_inference": false,
+  "raw_third_party_question_corpora_included": false
+}

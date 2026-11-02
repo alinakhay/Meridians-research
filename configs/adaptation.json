@@ -1,0 +1,30 @@
+{
+  "base_model": "Qwen/Qwen3-8B",
+  "base_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "seeds": [
+    42,
+    11,
+    23
+  ],
+  "training_examples": 256,
+  "optimizer_updates": 64,
+  "epochs": 1,
+  "learning_rate": 0.0001,
+  "batch_size": 1,
+  "gradient_accumulation": 4,
+  "lora_rank": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "lora_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj"
+  ],
+  "quantization": "NF4 four-bit, double quantization",
+  "gradient_clip_norm": 1.0,
+  "max_prompt_tokens": 1920,
+  "max_numeric_cells": 128,
+  "release_seed": 42,
+  "seed_selection": "Fixed before test prediction"
+}

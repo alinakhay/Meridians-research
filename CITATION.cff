@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying Meridians manuscript when using these research artifacts."
+type: software
+title: "Meridians: Numerical Representations and Structured Answers in Financial Question Answering"
+authors:
+  - family-names: Khay
+    given-names: Alina
+version: 1.0.0
+license: MIT
+date-released: 2026-11-02
+repository-code: "https://github.com/alinakhay/Meridians-research"
+url: "https://github.com/alinakhay/Meridians-research"

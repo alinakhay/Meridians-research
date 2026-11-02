@@ -1,0 +1,15 @@
+{
+  "status": "FINAL_EVALUATION_COMPLETED",
+  "completed_models": [
+    "B0",
+    "B1_seed42",
+    "N1_seed42",
+    "P1_seed42",
+    "B1_seed11",
+    "N1_seed11",
+    "P1_seed11",
+    "B1_seed23",
+    "N1_seed23",
+    "P1_seed23"
+  ]
+}

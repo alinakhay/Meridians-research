@@ -1,0 +1,28 @@
+{
+  "n": 256,
+  "datasets": {
+    "finqa": {
+      "n": 64,
+      "metric": "finqa_answer_only_5dp",
+      "exact_match": 0.15625,
+      "parse_rate": 1.0,
+      "unit_canonical_execution_reference_exactness": 0.15625,
+      "references_converted_from_percentage_points": 0
+    },
+    "tatqa": {
+      "n": 64,
+      "metric": "official_tatqa_em_f1",
+      "exact_match": 0.3125,
+      "parse_rate": 0.96875,
+      "f1": 0.3125,
+      "scale_accuracy": 0.84375
+    },
+    "synthetic_cf": {
+      "n": 128,
+      "metric": "synthetic_claim_label_accuracy",
+      "exact_match": 0.0,
+      "parse_rate": 0.0
+    }
+  },
+  "evaluation_file_sha256": "be84c528e4fbb4a5c20326ce0df29ad9fa4b86f5cb277431b278e84ae424a680"
+}

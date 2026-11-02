@@ -1,0 +1,17 @@
+{
+  "source": "finqa",
+  "narrative": "Amounts in millions of USD.",
+  "table": [
+    [
+      "Metric",
+      "2023",
+      "2024"
+    ],
+    [
+      "Revenue",
+      "100",
+      "125"
+    ]
+  ],
+  "question": "What is the relative increase in revenue from 2023 to 2024?"
+}

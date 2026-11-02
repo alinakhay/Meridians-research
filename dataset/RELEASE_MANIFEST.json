@@ -1,0 +1,35 @@
+{
+  "files": {
+    "CODE_LICENSE": {
+      "bytes": 1067,
+      "sha256": "9563439f01565f3189c04f776af2f110b16f77e0272dd6a2e73194091ae23056"
+    },
+    "LICENSE": {
+      "bytes": 506,
+      "sha256": "f49a7637eeffa0dc99305581ff3f3b75b10e08422fd29e0f6067cdec516f10a1"
+    },
+    "README.md": {
+      "bytes": 5644,
+      "sha256": "a4185fe2c1ac922145c19409aa595d30485d1549d59d95bd518c7f6e32d3b379"
+    },
+    "data/test.jsonl": {
+      "bytes": 175700,
+      "sha256": "9c9101815914308403ba2489dba49646583cfa5cc5257ada6354e3c329d22446"
+    },
+    "generate.py": {
+      "bytes": 3479,
+      "sha256": "03b22ce2aa00323dce738d8fe09ce0cfa882d727e8518ea1658123d2af26c41e"
+    },
+    "provenance/manifest.json": {
+      "bytes": 1288,
+      "sha256": "cc74d49201893d1913b4640511b898544cd4a57534e9167201ad1b9f922f5933"
+    },
+    "provenance/scenario_seeds.jsonl": {
+      "bytes": 6593,
+      "sha256": "07257d44ff0f93b143f88e34b07fe9371989cf06d40428f2167e6dc4504c5706"
+    }
+  },
+  "public_code_release_date": "2026-11-02",
+  "manuscript_date": "November 2026",
+  "private_during_preparation": true
+}

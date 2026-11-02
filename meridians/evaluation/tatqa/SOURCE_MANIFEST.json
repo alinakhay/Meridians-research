@@ -1,0 +1,18 @@
+{
+  "tatqa_metric.py": {
+    "url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/870accc41953dcde885aabeb963d94aabdc0fbc3/tatqa_metric.py",
+    "sha256": "2aeeac479f89f8c76300af1cc0e8d098eb86af84bc386b38b6ab4af484a6dea8"
+  },
+  "tatqa_utils.py": {
+    "url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/870accc41953dcde885aabeb963d94aabdc0fbc3/tatqa_utils.py",
+    "sha256": "a84bb2f960737cf0a53733637a674cc4b20ef030a2be6a4b21dc2c4356f415ec"
+  },
+  "tatqa_metric_test.py": {
+    "url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/870accc41953dcde885aabeb963d94aabdc0fbc3/tatqa_metric_test.py",
+    "sha256": "f0ca0edd834ea2890cecac380cd97f4dcbcc51811c5c1bb7d617dec243a5222f"
+  },
+  "tatqa_utils_test.py": {
+    "url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/870accc41953dcde885aabeb963d94aabdc0fbc3/tatqa_utils_test.py",
+    "sha256": "188d5757c96c2fe96128f8decee5b4f63c2bc93034ea1c5d148826d7cbe2c834"
+  }
+}

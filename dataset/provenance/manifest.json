@@ -1,0 +1,34 @@
+{
+  "name": "Meridians-Counterfactuals",
+  "version": "1.0.0",
+  "intended_release_date": "2026-11-01",
+  "manuscript_date": "November 2026",
+  "examples": 128,
+  "independent_scenarios": 32,
+  "variants_per_scenario": 4,
+  "labels": {
+    "contradicted": 64,
+    "supported": 64
+  },
+  "split": "test",
+  "training_use_in_reported_research_adapters": false,
+  "generation_seed_original_pool": 42,
+  "selection_seed": 1337,
+  "selection_rule": "Lowest SHA256(1337:cf:<scenario_id>) among the original 300 synthetic test scenarios. Every selected scenario produces all four variants.",
+  "frozen_evaluation_sha256": "be84c528e4fbb4a5c20326ce0df29ad9fa4b86f5cb277431b278e84ae424a680",
+  "published_test_sha256": "9c9101815914308403ba2489dba49646583cfa5cc5257ada6354e3c329d22446",
+  "frozen_fields_preserved": [
+    "id",
+    "scenario_id",
+    "numeric_flip",
+    "claim_flip",
+    "narrative",
+    "numeric_text",
+    "question",
+    "input_sha256"
+  ],
+  "gold_labels_match_frozen_references": true,
+  "original_synthetic_pool_license": "CC0-1.0 (new generated examples only)",
+  "third_party_corpora_included": false,
+  "note": "Exact decimal strings preserve displayed values. The 128 related cases are not 128 independent scenarios. No claim of independent human realism validation."
+}

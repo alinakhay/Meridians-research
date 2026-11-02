@@ -1,0 +1,29 @@
+{
+  "status": "FROZEN_BEFORE_TEST_PREDICTION",
+  "study_id": "meridians-restricted-test-and-counterfactual-v1",
+  "base_model": "Qwen/Qwen3-8B",
+  "base_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "evaluation_sha256": "be84c528e4fbb4a5c20326ce0df29ad9fa4b86f5cb277431b278e84ae424a680",
+  "reference_units_sha256": "6ff685ff84a16549400dfcdd1d62ac6d3144bee0706327267c5827f269fefb5b",
+  "release_loader_sha256": "d47aafec2a13a1973fc16bcf4eb1fedac50d101552cdffefe4f59a164e6db073",
+  "finqa_reference_caveat": "Raw execution targets have mixed percentage conventions; raw exactness remains frozen primary reference agreement, not pure arithmetic accuracy. Deterministic reference-unit canonicalization is secondary and never changes prediction parsing or model inputs.",
+  "max_prompt_tokens": 1920,
+  "max_answer_tokens": 64,
+  "max_numeric_rows": 128,
+  "decoding": "Greedy; thinking disabled; strict JSON answer and scale for every model.",
+  "model_order": [
+    "B0",
+    "B1_seed42",
+    "N1_seed42",
+    "P1_seed42",
+    "B1_seed11",
+    "N1_seed11",
+    "P1_seed11",
+    "B1_seed23",
+    "N1_seed23",
+    "P1_seed23"
+  ],
+  "evaluation_file": "data/final_v1/evaluation.jsonl",
+  "reference_units_file": "data/final_v1/reference_units.json",
+  "release_loader_file": "scripts/inference_meridians.py"
+}

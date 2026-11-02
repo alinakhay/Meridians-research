@@ -1,0 +1,20 @@
+{
+  "scientific_fields_are_unchanged": true,
+  "public_protocol_is_field_projection": true,
+  "original_frozen_protocol_sha256": "ef11478ae0a233d92236595370c8b6397e603b7e8e21cbb28b449e6e066e374f",
+  "published_scientific_protocol_sha256": "fd4ff31169f841f97cac804f9f5f6cf26df70a77265f7c6a3bfbe82179130933",
+  "omitted_keys": [
+    "checkpoints",
+    "frozen_files",
+    "gpu",
+    "max_function_seconds",
+    "max_parallel_gpu_jobs",
+    "metrics",
+    "primary_contrast",
+    "retries",
+    "secondary_contrasts",
+    "selection_rule",
+    "uncertainty"
+  ],
+  "note": "Scientific selection, model order, generation limits, input/reference hashes and backbone revision are unchanged. Internal checkpoint storage details are omitted from the public projection."
+}

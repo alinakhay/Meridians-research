@@ -1,0 +1,10 @@
+\begin{thebibliography}{99}
+\bibitem{r1} Chen, Z., et al. (2021). FinQA: A Dataset of Numerical Reasoning over Financial Data. EMNLP, 3697-3711. \url{https://aclanthology.org/2021.emnlp-main.300/}.
+\bibitem{r2} Zhu, F., et al. (2021). TAT-QA: A Question Answering Benchmark on a Hybrid of Tabular and Textual Content in Finance. ACL-IJCNLP, 3277-3287. \url{https://aclanthology.org/2021.acl-long.254/}.
+\bibitem{r3} Han, H., Xu, J., Zhou, M., Shao, Y., Han, S., and Zhang, D. (2022; revised 2023). LUNA: Language Understanding with Number Augmentations on Transformers via Number Plugins and Pre-training. arXiv:2212.02691. \url{https://arxiv.org/abs/2212.02691}.
+\bibitem{r4} Golkar, S., et al. (2023; revised 2024). xVal: A Continuous Numerical Tokenization for Scientific Language Models. arXiv:2310.02989. \url{https://arxiv.org/abs/2310.02989}.
+\bibitem{r5} Hu, E. J., et al. (2021). LoRA: Low-Rank Adaptation of Large Language Models. arXiv:2106.09685. \url{https://arxiv.org/abs/2106.09685}.
+\bibitem{r6} Dettmers, T., Pagnoni, A., Holtzman, A., and Zettlemoyer, L. (2023). QLoRA: Efficient Finetuning of Quantized LLMs. arXiv:2305.14314. \url{https://arxiv.org/abs/2305.14314}.
+\bibitem{r7} Khatuya, S., et al. (2024). Parameter-Efficient Instruction Tuning of Large Language Models For Extreme Financial Numeral Labelling. NAACL. \url{https://aclanthology.org/2024.naacl-long.410/}.
+\bibitem{r8} Qwen Team. Qwen3-8B official model card. The immutable backbone revision is identified in Methods. \url{https://huggingface.co/Qwen/Qwen3-8B}.
+\end{thebibliography}

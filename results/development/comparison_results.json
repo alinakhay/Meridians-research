@@ -1,0 +1,228 @@
+{
+  "status": "EXPLORATORY_DEVELOPMENT_RESULTS",
+  "test_sets_used": false,
+  "summaries": {
+    "B0": {
+      "n": 128,
+      "datasets": {
+        "finqa": {
+          "n": 64,
+          "metric": "finqa_answer_only_5dp",
+          "exact_match": 0.03125,
+          "parse_rate": 0.3125
+        },
+        "tatqa": {
+          "n": 64,
+          "metric": "official_tatqa_em_f1",
+          "exact_match": 0.0625,
+          "parse_rate": 1.0,
+          "f1": 0.0625,
+          "scale_accuracy": 0.71875
+        }
+      }
+    },
+    "B1": {
+      "n": 128,
+      "datasets": {
+        "finqa": {
+          "n": 64,
+          "metric": "finqa_answer_only_5dp",
+          "exact_match": 0.09375,
+          "parse_rate": 0.984375
+        },
+        "tatqa": {
+          "n": 64,
+          "metric": "official_tatqa_em_f1",
+          "exact_match": 0.359375,
+          "parse_rate": 0.984375,
+          "f1": 0.359375,
+          "scale_accuracy": 0.84375
+        }
+      }
+    },
+    "N1": {
+      "n": 128,
+      "datasets": {
+        "finqa": {
+          "n": 64,
+          "metric": "finqa_answer_only_5dp",
+          "exact_match": 0.046875,
+          "parse_rate": 0.78125
+        },
+        "tatqa": {
+          "n": 64,
+          "metric": "official_tatqa_em_f1",
+          "exact_match": 0.140625,
+          "parse_rate": 0.828125,
+          "f1": 0.140625,
+          "scale_accuracy": 0.640625
+        }
+      }
+    },
+    "N1_zero": {
+      "n": 128,
+      "datasets": {
+        "finqa": {
+          "n": 64,
+          "metric": "finqa_answer_only_5dp",
+          "exact_match": 0.046875,
+          "parse_rate": 0.78125
+        },
+        "tatqa": {
+          "n": 64,
+          "metric": "official_tatqa_em_f1",
+          "exact_match": 0.140625,
+          "parse_rate": 0.84375,
+          "f1": 0.140625,
+          "scale_accuracy": 0.640625
+        }
+      }
+    },
+    "N1_permuted": {
+      "n": 128,
+      "datasets": {
+        "finqa": {
+          "n": 64,
+          "metric": "finqa_answer_only_5dp",
+          "exact_match": 0.046875,
+          "parse_rate": 0.78125
+        },
+        "tatqa": {
+          "n": 64,
+          "metric": "official_tatqa_em_f1",
+          "exact_match": 0.125,
+          "parse_rate": 0.8125,
+          "f1": 0.125,
+          "scale_accuracy": 0.625
+        }
+      }
+    }
+  },
+  "paired_comparisons": {
+    "B1_minus_B0": {
+      "finqa": {
+        "n": 64,
+        "clusters": 55,
+        "cluster_type": "company_year_report_proxy",
+        "delta": 0.0625,
+        "exploratory_cluster_bootstrap_95_interval": [
+          0.014705882352941176,
+          0.12903225806451613
+        ],
+        "replicates": 2000,
+        "seed": 2026
+      },
+      "tatqa": {
+        "n": 64,
+        "clusters": 61,
+        "cluster_type": "table_context_uuid",
+        "delta": 0.296875,
+        "exploratory_cluster_bootstrap_95_interval": [
+          0.19047619047619047,
+          0.421875
+        ],
+        "replicates": 2000,
+        "seed": 2026
+      }
+    },
+    "N1_minus_B1": {
+      "finqa": {
+        "n": 64,
+        "clusters": 55,
+        "cluster_type": "company_year_report_proxy",
+        "delta": -0.046875,
+        "exploratory_cluster_bootstrap_95_interval": [
+          -0.11864406779661017,
+          0.016129032258064516
+        ],
+        "replicates": 2000,
+        "seed": 2026
+      },
+      "tatqa": {
+        "n": 64,
+        "clusters": 61,
+        "cluster_type": "table_context_uuid",
+        "delta": -0.21875,
+        "exploratory_cluster_bootstrap_95_interval": [
+          -0.3333333333333333,
+          -0.1111111111111111
+        ],
+        "replicates": 2000,
+        "seed": 2026
+      }
+    },
+    "N1_zero_minus_N1": {
+      "finqa": {
+        "n": 64,
+        "clusters": 55,
+        "cluster_type": "company_year_report_proxy",
+        "delta": 0.0,
+        "exploratory_cluster_bootstrap_95_interval": [
+          0.0,
+          0.0
+        ],
+        "replicates": 2000,
+        "seed": 2026
+      },
+      "tatqa": {
+        "n": 64,
+        "clusters": 61,
+        "cluster_type": "table_context_uuid",
+        "delta": 0.0,
+        "exploratory_cluster_bootstrap_95_interval": [
+          0.0,
+          0.0
+        ],
+        "replicates": 2000,
+        "seed": 2026
+      }
+    },
+    "N1_permuted_minus_N1": {
+      "finqa": {
+        "n": 64,
+        "clusters": 55,
+        "cluster_type": "company_year_report_proxy",
+        "delta": 0.0,
+        "exploratory_cluster_bootstrap_95_interval": [
+          0.0,
+          0.0
+        ],
+        "replicates": 2000,
+        "seed": 2026
+      },
+      "tatqa": {
+        "n": 64,
+        "clusters": 61,
+        "cluster_type": "table_context_uuid",
+        "delta": -0.015625,
+        "exploratory_cluster_bootstrap_95_interval": [
+          -0.06557377049180328,
+          0.03278688524590164
+        ],
+        "replicates": 2000,
+        "seed": 2026
+      }
+    }
+  },
+  "matched_controls_verified": {
+    "steps": 64,
+    "seed": 42,
+    "dataset_sha256": "07c87c8aa9c3be6eb63cfa27acd2c22b3022c1cbf08940c781f4a32188966fe5",
+    "data_order_sha256": "a5abffe7044276dcfef992cbfa6ea9f99ab484301bc1d1a6445cdfa35f825481",
+    "batch_size": 1,
+    "gradient_accumulation": 4,
+    "learning_rate": 0.0001
+  },
+  "trainable_parameters": {
+    "B1": 15335424,
+    "N1": 16023680
+  },
+  "limitations": [
+    "One seed and 64 updates; exploratory direct-answer development comparison only.",
+    "Subset restricted to complete short-context arithmetic questions; full-benchmark accuracy is not measured.",
+    "Confidence intervals are descriptive and not corrected for multiple exploratory comparisons.",
+    "TAT-QA clusters are table contexts, not verified source documents.",
+    "Public-benchmark pretraining contamination cannot be excluded.",
+    "Numeric corruption at inference is a mechanism diagnostic, not a separately trained parameter-matched baseline."
+  ]
+}
